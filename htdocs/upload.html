@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <title>Dosya Yükleme</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+</head>
+<body>
+
+     <div>
+        <h1>Welcome to MyDrive</h1>
+
+     </div>
+     <body>
+        <div>
+            <h2>Yüklemek İstediğiniz Dosyayı Seçin</h2>
+             <form action="upload.php" method="post" enctype="multipart/form-data">
+        <input type="file" name="fileToUpload" id="fileToUpload">
+        <input type="submit" value="Dosya Yükle" name="submit">
+    </form>
+        </div>
+    
+    
+        <h2>Yüklü Dosyalar</h2>
+    <!-- Yüklenen dosyaları görmek için buton -->
+    <form action="upload.php" method="post">
+        <input type="submit" value="Yüklediğiniz Dosyaları Gör">
+        
+    </form>
+    
+
+    
+    
+</body>
+</html>
